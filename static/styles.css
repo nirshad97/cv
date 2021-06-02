@@ -1,0 +1,60 @@
+ body {
+ background-color: #E6E6FA;
+ font-family: 'Nunito', sans-serif;
+ }
+
+.name {
+font-family: 'Oswald', sans-serif;
+font-size: 5em;
+color: white;
+text-align: center;
+margin-bottom: 0px;
+background-color: #583d72;
+}
+
+.tagline {
+font-family: 'Oswald', sans-serif;
+font-weight: 300;
+text-align: center;
+font-size: 2em;
+margin-top: 0px
+}
+
+.work-experience {
+border-collapse: collapse;
+border-spacing: 15px 15px;
+margin: 20px 0;
+font-size: 1.2em;
+min-width: 400px;
+border-radius: 12px 12px 0 0;
+overflow: hidden;
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+margin-left: auto;
+margin-right: auto;
+}
+
+.work-skill-experience-heading {
+text-align: center;
+}
+
+.work-experience th,
+.work-experience td {
+padding: 12px 15px;
+}
+.work-experience thead tr {
+background-color: #583d72;
+color: white;
+text-align: left;
+}
+
+.work-experience tbody tr {
+border-bottom: 1px solid #a58faa;
+}
+
+.bio {
+  max-width: 1000px;
+  min-width: 100px;
+  text-align: center;
+  margin: 0px 300px 0px 300px;
+  font-size: 20px
+}
